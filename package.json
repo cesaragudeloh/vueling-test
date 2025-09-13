@@ -1,0 +1,16 @@
+{
+  "name": "vueling-cars-rates-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Vueling rental car automation project",
+  "scripts": {
+    "test:scenario": "cypress run --spec 'cypress/e2e/rental_cars.cy.js'",
+    "cypress:open": "cypress open",
+    "headed": "cypress run --headed --browser chrome"
+  },
+  "devDependencies": {
+    "cypress": "^15.1.0",
+    "dayjs": "^1.11.18",
+    "cypress-iframe": "^1.0.1"
+  }
+}
